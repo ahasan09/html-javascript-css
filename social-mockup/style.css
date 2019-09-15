@@ -1,0 +1,367 @@
+* {
+	outline: none;
+}
+
+body {
+	margin: 0px;
+	background-color: #eeeff4;
+	font-family: Helvetica;
+}
+
+.bg-color {
+	background-color: #3b5998;
+}
+.c-pointer {
+	cursor: pointer;
+}
+.p-absulate {
+	position: absolute;
+}
+
+main {
+	width: 100%;
+	text-align: center;
+	background-color: #eeeff4;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+header {
+	width: 850px;
+	margin: 10px auto 0px;
+	position: relative;
+}
+
+#profile-banner {
+	height: 300px;
+	overflow: hidden;
+}
+
+#profile-d {
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	right: 0px;
+	height: 180px;
+	z-index: 2;
+}
+
+#profile-pic {
+	width: 180px;
+	height: 180px;
+	border-radius: 6px;
+	margin-top: 28px;
+	overflow: hidden;
+	box-shadow: 0 0 0 1px #313030;
+}
+
+#page-name {
+	position: absolute;
+	top: 120px;
+	left: 208px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#web-address {
+	position: absolute;
+	top: 150px;
+	left: 208px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.page-action {
+	column-count: 4;
+	column-gap: 0px;
+	position: absolute;
+	top: 138px;
+	right: 20px;
+	bottom: 20px;
+	color: #fff;
+	height: 40px;
+}
+
+.like,
+.follow,
+.message,
+.more {
+	background-color: #fbfbfb;
+	color: black;
+	text-align: center;
+	padding: 5px 8px 6px 8px;
+	vertical-align: middle;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.f-12 {
+	font-size: 12px !important;
+}
+
+.like {
+	margin-right: 10px;
+	border-radius: 2px;
+}
+
+.follow {
+	border-radius: 2px 0 0 2px;
+}
+
+.follow,
+.message {
+	border-right: 1px solid #a2a0a0;
+}
+
+.more {
+	border-radius: 0 2px 2px 0;
+}
+
+.page-action > div > span {
+	padding-right: 5px;
+}
+
+#p-tabs {
+	background-color: #fff;
+	height: 40px;
+	width: 850px;
+	margin: 0px auto 0px;
+	position: relative;
+}
+
+#p-tabs-content {
+	column-count: 5;
+	column-gap: 0px;
+	color: #919191;
+	width: 400px;
+	padding: 15px 8px 6px 208px;
+}
+
+#p-tabs-content > div {
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	font-size: 12px;
+	color: #252525;
+}
+
+#p-tabs-content .border {
+	border-right: 1px solid #a2a0a0;
+}
+
+#p-tabs-content .border.active {
+	font-weight: bold;
+}
+
+#p-tabs-content .border.active span:after {
+	content: '';
+	position: relative;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 4px;
+	background-color: #3b5998;
+}
+
+#p-details {
+	width: 850px;
+	margin: 20px auto 20px;
+	position: relative;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column1 {
+	float: left;
+}
+
+.left {
+    width: 328px;
+    float:left;
+	/* margin-right: 5px; */
+	border: 2px lightgrey;
+}
+
+.right {
+    width: 512px;
+    float:right;
+    /* margin-left: 5px; */
+	border: 2px lightgrey;
+}
+
+.w-492 {
+	width: 492px;
+}
+
+.w-100p {
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.tb {
+	display: table;
+	margin: 10px;
+}
+
+.post-container {
+	background-color: #fff;
+	box-shadow: 0px 3px 3px #ddd;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.l-top   {
+    text-align: left;
+    border-radius: 5px;
+}
+.post {
+	padding: 5px;
+}
+
+.td {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+.p-p-pic {
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.p-r-hdr {
+	vertical-align: top;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.p-u-info {
+	color: #5a5959;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+
+.p-u-info a {
+	color: #3b5998;
+}
+
+.p-dt {
+	color: #a8a8a8;
+	font-size: 13px;
+}
+
+.p-dt i {
+	font-size: 14px;
+	margin-right: 2px;
+}
+
+.p-dt span {
+	position: relative;
+	top: -2px;
+}
+
+.p-cnt-v {
+	margin: 10px;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.p-cover {
+	margin: 10px 0 0;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.p-other {
+	margin: 10px 10px 0px;
+	width: 482px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.p-acts {
+	border-top: 1px solid #ccc;
+	background-color: #f7f7f7;
+	column-count: 3;
+	column-gap: 0px;
+	position: relative;
+	height: 40px;
+}
+.p-act {
+	transition: box-shadow .3s;
+	color: #a3a6aa;
+	cursor: pointer;
+	height: 30px;
+	padding: 5px;
+}
+.p-act i {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.share {
+	transform: rotateY(180deg);
+}
+
+.l-top {
+	border-bottom: 1px solid #ccc;
+	height: 40px;
+}
+
+.l-middle {
+	padding: 5px 15px 5px;
+	text-align: start;
+}
+
+.m-0 {
+	margin: 0px;
+}
+
+.l-footer {
+	text-align: start;
+	border-top: 1px solid #ccc;
+	height: 20px;
+	padding: 15px;
+}
+
+.p-5 {
+	padding: 5px;
+}
+
+.p-act.p-active {
+	font-weight: bold;
+}
+.p-15 {
+padding: 15px;
+}
+.app-box {
+    margin: 5px;
+    width: 120px;
+    height: 90px;
+    float: left;
+}
+.app-content {
+    float: left;
+    padding: 40px 0px
+
+}
+.h-100 {
+    height: 100px;
+
+}
+.bb-1 {
+   border-bottom: 1px solid #ccc
+}

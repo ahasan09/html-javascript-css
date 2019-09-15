@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <header class="bg-color">
+            <div id="profile-banner">
+            </div>
+            <div id="profile-d">
+                <div id="profile-pic" class="bg-color">
+                </div>
+                <div id="page-name">safia's fashion house</div>
+                <div id="web-address">www.safiafashionhouse</div>
+                <div class="page-action">
+                    <div class="like">
+                        <span>
+                            <i class="material-icons f-12">thumb_up</i>
+                        </span>
+                        Like</div>
+                    <div class="follow">
+                        <span>
+                            <i class="material-icons f-12"> add </i>
+                        </span>
+                        Follow</div>
+                    <div class="message">
+                        <span>
+                            <i class="material-icons f-12">message</i>
+                        </span>
+                        Message</div>
+                    <div class="more"><i class="material-icons f-12">
+                            more_horiz
+                        </i></div>
+                </div>
+            </div>
+        </header>
+        <div id="p-tabs">
+            <div id="p-tabs-content">
+                <div onclick="activeTab(this)" class="border active"><span>Timeline</span>
+                </div>
+                <div onclick="activeTab(this)" class="border"><span>About</span> </div>
+                <div onclick="activeTab(this)" class="border"><span>Welcome</span></div>
+                <div onclick="activeTab(this)" class="border"><span>FWB</span></div>
+                <div id="more">More<i class="material-icons f-12"> arrow_drop_down </i></div>
+            </div>
+        </div>
+        <div id="p-details">
+            <div class="row">
+                <div class="column left">
+                    <div class="post-container">
+                        <div class="l-top"></div>
+                        <div class="l-middle">
+                            <h5 class="m-0">About Your page name</h5>
+                            <div style="margin:5px 0px">
+                                Safia's fashion house a range of ensembles,which spell out sheer beauty and class.The
+                                focus is on the quality of fabric,workmansship and the choice of color-all these aspects
+                                are blended to create fascinating style and unique designs.
+
+                            </div>
+                        </div>
+                        <div class="l-footer">
+                            <i class="material-icons f-12">public</i>
+                            <a href="#">your website</a>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="l-top">
+                            <div style="padding: 15px">
+                                <h5 class="m-0">About</h5>
+                            </div>
+
+                        </div>
+
+
+                        <div class="l-middle">
+                                <i class="material-icons f-12">place</i>
+                               <b>Your Adress</b> 
+                            
+                            <div style="margin: 5px 15px">City, Country</div>
+                        </div>
+                        <div class="l-footer">
+                             <i class="material-icons f-12">call</i>
+                             <a href="#">Add phone number</a>
+                            
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="l-top">
+                            
+                        <div class="p-15">
+                            Apps
+                        </div>
+                            
+                        </div>
+                        <div class="l-middle h-100 bb-1" >
+                           <div class="app-box bg-color"></div> 
+                           <div class="app-content">welcome</div>
+                        </div>
+                        <div class="l-middle h-100 bb-1" >
+                                <div class="app-box bg-color"></div> 
+                                <div class="app-content">FWB</div>
+                             </div>
+                             <div class="l-middle h-100" >
+                                    <div class="app-box bg-color"></div> 
+                                    <div class="app-content">Livestream</div>
+                                 </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="post-container">
+                        <div class="post">
+                            <div class="tb w-492">
+                                <div class="td p-p-pic bg-color"></div>
+                                <div class="td p-r-hdr">
+                                    <div class="p-u-info">
+                                        <a href="#">Your page name</a> changed the <a href="#">cober photo</a>
+                                    </div>
+                                    <div class="p-dt">
+                                        <span>August 17, 2019</span>
+                                        <i class="material-icons f-12">public</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-cover bg-color"></div>
+                        </div>
+                        <div class="p-acts">
+                            <div class="p-act" onclick="activeAction(this)">
+                                <i class="material-icons ">thumb_up_alt</i>Like </div>
+                            <div class="p-act" onclick="activeAction(this)"><i class="material-icons">comment</i>
+                                Comment</div>
+                            <div class="p-act" onclick="activeAction(this)">
+                                <i class="material-icons share">reply</i>
+                                Share</div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post">
+                            <div class="tb w-492">
+                                <div class="td p-p-pic bg-color"></div>
+                                <div class="td p-r-hdr">
+                                    <div class="p-u-info">
+                                        <a href="#">Your page name</a> created an event
+                                    </div>
+                                    <div class="p-dt">
+                                        <span>August 10, 2019</span>
+                                        <i class="material-icons f-12">public</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-other bg-color w-492"></div>
+                        </div>
+                        <div class="p-acts">
+                            <div class="p-act">
+                                <i class="material-icons ">thumb_up_alt</i>Like </div>
+                            <div class="p-act"><i class="material-icons">comment</i>
+                                Comment</div>
+                            <div class="p-act">
+                                <i class="material-icons share">reply</i>
+                                Share</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    function activeTab(element) {
+        let activeElements = document.getElementsByClassName("active");
+        if (activeElements[0] === element) return;
+
+        activeElements[0].classList.remove("active");
+        element.classList.add("active");
+    }
+
+    function activeAction(element) {
+        let activeElements = document.getElementsByClassName("p-active");
+
+        if (activeElements.length) {
+            if (activeElements[0] === element) return;
+
+            activeElements[0].classList.remove("p-active");
+        }
+
+        element.classList.add("p-active");
+    }
+</script>
+
+</html>
